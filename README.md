@@ -1,6 +1,6 @@
 # LASER-Society-Flight-Computer
 
-This is a work in progress rocket flight computer for the LASER society at the University of Liverpool.
+This is a **work in progress** rocket flight computer for the LASER society at the University of Liverpool.
 
 The idea is to design and produce an open source flight controller board that the students of the LASER society can use in their model rocket designs. Since each rocket will be different, the idea is to create a board capable of operating in a wide range of designs, allowing the society to provide members with easy access to flight control hardware.
 
@@ -33,3 +33,5 @@ Various sensors have been selected for the flight computer in order to provide a
 **Power Design**
 
 The board features two seperate battery connectors, the first is a 1S lipo connector that feeds into a battery management circuit + LDO combo that powers the MCU, sensors, GNSS and LoRa. Then there is a seperate terminal block designed to connect to a 2S lipo, which feeds into a 5V regulator. This allows the board to drive up to six high power servo motors for rockets that use active control and stabilisation.
+
+The schematic and gerber files are available in the Hardware section of the repo, though I must warn that the current design may have issues in the power circuitry.
