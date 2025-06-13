@@ -12,7 +12,7 @@ I have only done the hardware design so far, I plan to program the microcontroll
 
 **Microcontroller**
 
-The ATSAMD51 was chosen for the microcontroller. It has an Arm Cortex-M4 core that is clocked at 120MHz, an integrated floating point unit (FPU) and up to 1MB of flash, making it sufficient for any mission on a hobby rocket. It is also well documented, with many examples used in commerical microcontroller boards (like Adafruit's M4 Express).
+The ATSAMD51 was chosen for the microcontroller. It has an Arm Cortex-M4 core that is clocked at 120MHz, an integrated floating point unit (FPU) and up to 1MB of flash, making it sufficient for any mission on a hobby rocket. It is also well documented, with many examples used in commerical microcontroller boards (like Adafruit's M4 Express). It can be interfaced with a SWD or JTAG connector for debugging.
 
 This series of microcontroller also features a QSPI inteface, which makes it an excellent candidate for interfacing external flash memory.
 
