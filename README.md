@@ -7,6 +7,7 @@ The idea is to design and produce an open source flight controller board that th
 I have only done the hardware design so far, I plan to program the microcontroller myself to showcase its functionality or I can burn the Arduino bootloader to the board.
 
 ![Early prototype of the flight computer](FlightComputerPrototype.jpg)
+![3D view of the populated PCB](Screenshot 2025-06-13 192238.png)
 
 ### Hardware
 
